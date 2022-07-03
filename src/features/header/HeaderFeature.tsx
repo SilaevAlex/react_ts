@@ -13,6 +13,7 @@ export const HeaderFeature = () => {
         css={css`
           min-width: 1200px;
           margin: auto;
+          padding: 5px;
           
         `}
       >
