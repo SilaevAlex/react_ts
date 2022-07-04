@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import { Link } from "react-router-dom";
 
 export const PageFeature = ({ children }: any) => (
   <div
@@ -14,6 +13,5 @@ export const PageFeature = ({ children }: any) => (
     `}
   >
     {children}
-    <Link to="/">Go Home</Link>
   </div>
 );
